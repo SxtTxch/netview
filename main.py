@@ -26,10 +26,7 @@ def check_internet_conn():
         r = http.request('GET', 'http://google.com', preload_content=False)
         code = r.status
         r.release_conn()
-        if code == 200:
-            return True
-        else:
-            return False
+        return code == 200
     except urllib3.exceptions.RequestError:
         return False
     
@@ -37,10 +34,12 @@ def get_geo_location():
     try:
         response = requests.get('https://ipinfo.io/json')
         data = response.json()
-        return f"{data['city']}, {data['country']}"
+        city = data.get('city', 'Unknown City')
+        country = data.get('country', 'Unknown Country')
+        return f"{city}, {country}"
     except requests.RequestException:
         return "Unable to retrieve location"
-    
+
 def check_dns_resolution():
     try:
         socket.gethostbyname('google.com')
