@@ -29,7 +29,7 @@ git clone https://github.com/your-username/netview.git
 - **`psutil`** - 📊 For **retrieving real-time network statistics** effortlessly.
 - **`urllib3`** - 🌐 For making **HTTP requests** with ease.
 - **`requests`** - 📥 For **handling HTTP requests and responses** efficiently.
-- **`windows-curses`** (optional) - 🖥️ For ensuring **compatibility on Windows systems**.
+- **`windows-curses`** `(REQUIRED FOR WINDOWS)` - 🖥️ For ensuring **compatibility on Windows systems**.
 
 **To get everything up and running quickly**, install these dependencies using the provided `requirements.txt` file:
 
