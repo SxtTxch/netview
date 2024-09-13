@@ -8,6 +8,8 @@ Welcome to **Netview**, a tool designed for those who value **efficiency** and *
 - 📡 **Real-time Updates**: Stay informed with **instant** statistics on your network's data traffic, connection status, and interface health.
 - 🌍 **Geo-location & Connectivity**: Easily check your current **location** and internet **connection status**, all in one clean display.
 - 🎨 **Minimal UI, Maximum Information**: Enjoy a neat, **clutter-free** interface that keeps things clear and to the point.
+- 🌐 **Cross-Platform**: **Compatible** with multiple operating systems, ensuring you can use it whether you're on Windows, macOS, or Linux.
+
 
 ## 💡 **Why Netview?**
 - **Efficiency at its Core**: Netview is designed to use minimal resources, freeing up your system for other important tasks. No bloat, just data 📊.
