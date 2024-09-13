@@ -20,3 +20,19 @@ Clone the repository and experience **Netview's power**:
 ```bash
 git clone https://github.com/your-username/netview.git
 ```
+
+## Dependencies 🚀
+
+**Netview** requires the following Python packages to function smoothly:
+
+- **`pyfiglet`** - ✨ For generating **ASCII art** that makes your terminal pop!
+- **`psutil`** - 📊 For **retrieving real-time network statistics** effortlessly.
+- **`urllib3`** - 🌐 For making **HTTP requests** with ease.
+- **`requests`** - 📥 For **handling HTTP requests and responses** efficiently.
+- **`windows-curses`** (optional) - 🖥️ For ensuring **compatibility on Windows systems**.
+
+**To get everything up and running quickly**, install these dependencies using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
