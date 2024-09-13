@@ -1,0 +1,5 @@
+pyfiglet
+psutil
+urllib3
+requests
+windows-curses  # Optional, if you want to ensure compatibility on Windows
